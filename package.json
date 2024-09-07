@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "This repository is dedicated to exploring and mastering Playwright, a modern end-to-end testing framework for web applications. It provides a collection of practical examples, sample projects, and learning resources to enhance understanding and proficiency in using Playwright for automated testing.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "playwright": "^1.47.0"
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
   }
 }
