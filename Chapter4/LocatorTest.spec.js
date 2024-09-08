@@ -19,7 +19,7 @@ test.only('XPath Locator Test', async ({ browser }) => {
 
     await myPage.goto("https://www.facebook.com/login.php/");
     
-   await  myPage.locator('[id="email"]').click();
+   await  myPage.locator('//[@id="email"]').click();
     
    
 });
