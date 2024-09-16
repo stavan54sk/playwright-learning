@@ -11,7 +11,18 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  testDir: './Chapter7',
+
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] }
+    },
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] }
+    }
+  ],
+  testDir: './Chapter8',
 
   timeout: 30 * 1000,
 
@@ -23,7 +34,7 @@ module.exports = defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
 
-    browserName:'firefox',
+    browserName:'chromium',
 
 
     /* Base URL to use in actions like `await page.goto('/')`. */
