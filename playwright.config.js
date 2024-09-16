@@ -22,7 +22,7 @@ module.exports = defineConfig({
       use: { ...devices['Desktop Firefox'] }
     }
   ],
-  testDir: './Chapter8',
+  testDir: './Chapter9',
 
   timeout: 30 * 1000,
 
