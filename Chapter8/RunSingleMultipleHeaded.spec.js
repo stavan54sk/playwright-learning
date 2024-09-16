@@ -1,5 +1,4 @@
 const { test, expect } = require('@playwright/test');
-const { Module } = require('module');
 
 // Running tests Headless Mode
 // npx playwright test
@@ -34,6 +33,12 @@ const { Module } = require('module');
 // To run only the tests that failed in the last test run, first run your tests and then run them again with the --last-failed flag.
 
 // npx playwright test --last-failed
+
+// Debug tests with the Playwright Inspector
+
+// To debug all tests, run the Playwright test command followed by the --debug flag.
+
+// npx playwright test --debug
 
 test('Fill', async ({ page }) => {
 
