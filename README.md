@@ -7,6 +7,7 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 •	Features of Playwright
 # Chapter 2: Setup Environment
 •	Installing Node.js & Visual Studio for Playwright
+•	Playwright Project Structure
 # Chapter 3: Locators & Assertions
 •	Using Playwright Locators
 •	Text Extraction & Expect Assertions
