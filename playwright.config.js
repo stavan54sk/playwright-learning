@@ -18,7 +18,7 @@ module.exports = defineConfig({
       use: { ...devices['Desktop Chrome'] }
     }
   ],
-  testDir: './tests',
+  testDir: './Chapter 03 Locators & Assertions',
 
   timeout: 30 * 1000,
 
