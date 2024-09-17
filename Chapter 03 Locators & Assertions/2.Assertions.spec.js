@@ -299,7 +299,7 @@ test('toThrowError', async ({ page }) => {
 
 });
 
-test('not', async ({ page }) => {
+test('not (generic)', async ({ page }) => {
 
    const value = 1;
    expect(value).not.toBe(2);
@@ -525,7 +525,7 @@ test('toHaveValue', async ({ page }) => {
 
 // });
 
-test(' not ', async ({ page }) => {
+test('not (locators)', async ({ page }) => {
 
    await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
 
