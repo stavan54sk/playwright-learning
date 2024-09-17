@@ -16,13 +16,9 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] }
-    },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] }
     }
   ],
-  testDir: './Chapter9',
+  testDir: './tests',
 
   timeout: 30 * 1000,
 
