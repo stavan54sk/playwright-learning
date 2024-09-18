@@ -4,17 +4,19 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 
 # Index
 # Chapter 1: Introduction to Playwright
-•	Features of Playwright
+•	Introduction to Playwright.
+•	Benefits of Playwright Over Selenium and Cypress.
 # Chapter 2: Setup Environment
 •	Installing Node.js & Visual Studio for Playwright
 •	Playwright Project Structure
 # Chapter 3: Locators & Assertions
-•	Using Playwright Locators
-•	Text Extraction & Expect Assertions
-•	Managing Web Elements & Wait Mechanisms
+•	Locators
+•	Assertions
 # Chapter 4: Interactions
 •	Dropdowns, Radio Buttons, & Checkboxes
 •	Handling Child Windows & Tabs
+•	Text Extraction
+•	Managing Web Elements & Wait Mechanisms
 # Chapter 5: Debugging Tools
 •	Playwright Inspector & Codegen Tool
 •	Logs & HTML Reports
