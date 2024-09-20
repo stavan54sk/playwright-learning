@@ -532,3 +532,35 @@ test('not (locators)', async ({ page }) => {
    await expect(page.locator('[name="my-readonly"]')).not.toHaveValue("Readoly input");
 
 });
+
+// test('toHaveScreenshot(name)', async ({ page }) => {
+
+//    await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+//    await expect(page).toHaveScreenshot(test.jpg);
+
+// });
+
+// test('toHaveScreenshot()', async ({ page }) => {
+
+//    await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+//    await expect(page).toHaveScreenshot();
+
+// });
+
+test('toHaveTitle()', async ({ page }) => {
+
+   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+   await expect(page).toHaveTitle('Hands-On Selenium WebDriver with Java');
+   
+});
+
+test('toHaveURL()', async ({ page }) => {
+
+   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+   await expect(page).toHaveURL('https://bonigarcia.dev/selenium-webdriver-java/web-form.html');
+   
+});
