@@ -6,6 +6,7 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 1: Introduction to Playwright
 •	Introduction to Playwright.
 •	Benefits of Playwright Over Selenium and Cypress.
+•	Playwright Architecture
 # Chapter 2: Setup Environment
 •	Installing Node.js & Visual Studio for Playwright
 •	Playwright Project Structure
@@ -13,7 +14,7 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 •	Locators
 •	Assertions
 # Chapter 4: Interactions
-•	Dropdowns, Radio Buttons, & Checkboxes
+•	Actions
 •	Handling Child Windows & Tabs
 •	Text Extraction
 •	Managing Web Elements & Wait Mechanisms

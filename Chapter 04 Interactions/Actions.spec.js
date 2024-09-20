@@ -227,7 +227,4 @@ test('scroll', async ({ page }) => {
 
   await page.waitForTimeout(5000)
 
-
-
-
 });
