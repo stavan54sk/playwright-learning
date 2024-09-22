@@ -13,7 +13,7 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 3: Test Annotation & Anonymous Function
 •	Test Annotation.
 •	Anonymous Function.
-# Chapter 4: Async Await Keywords & Fixtures
+# Chapter 4: Async  & Await Keywords & Fixtures
 •	Async & Await Keywords.
 •	Fixtures.
 # Chapter 5: Locators & Assertions
