@@ -10,15 +10,18 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 2: Setup Environment
 •	Installing Node.js & Visual Studio for Playwright
 •	Playwright Project Structure
-# Chapter 3: Locators & Assertions
+# Chapter 3: Test Annotation & Anonymous Function
+•	Test Annotation
+•	Anonymous Function
+# Chapter 4: Locators & Assertions
 •	Locators
 •	Assertions
-# Chapter 4: Interactions
+# Chapter 5: Interactions
 •	Actions
 •	Handling Child Windows & Tabs
 •	Text Extraction
 •	Managing Web Elements & Wait Mechanisms
-# Chapter 5: Debugging Tools
+# Chapter 6: Debugging Tools
 •	Playwright Inspector & Codegen Tool
 •	Logs & HTML Reports
 # Chapter 7: GetBy Methods
