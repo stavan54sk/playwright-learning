@@ -6,25 +6,23 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 1: Introduction to Playwright
 •	Introduction to Playwright.
 •	Benefits of Playwright Over Selenium and Cypress.
-•	Playwright Architecture
-# Chapter 2: Setup Environment
-•	Installing Node.js & Visual Studio for Playwright
-•	Playwright Project Structure
+•	Playwright Architecture.
+# Chapter 2: Environment Setup
+•	Installing Node.js & Visual Studio for Playwright.
+•	Playwright Project Structure.
 # Chapter 3: Test Annotation & Anonymous Function
-•	Test Annotation
-•	Anonymous Function
-# Chapter 4: Locators & Assertions
-•	Locators
-•	Assertions
-# Chapter 5: Interactions
-•	Actions
-•	Handling Child Windows & Tabs
-•	Text Extraction
-•	Managing Web Elements & Wait Mechanisms
-# Chapter 6: Debugging Tools
+•	Test Annotation.
+•	Anonymous Function.
+# Chapter 4: Async Await Keywords & Fixtures
+•	Async & Await Keywords.
+•	Fixtures.
+# Chapter 5: Locators & Assertions
+•   Locators. 
+•   Assertions.
+# Chapter 6: Interactions
 •	Playwright Inspector & Codegen Tool
 •	Logs & HTML Reports
-# Chapter 7: GetBy Methods
+# Chapter 7: Debugging Tools
 •	GetByLabel, Role, & Text
 # Chapter 8: Handling Calendars
 •	Calendar Strategies & Validation
