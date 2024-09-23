@@ -10,11 +10,11 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 2: Environment Setup
 •	Installing Node.js & Visual Studio for Playwright.
 •	Playwright Project Structure.
-# Chapter 3: Test Annotation & Anonymous Function
-•	Test Annotation.
-•	Anonymous Function.
-# Chapter 4: Async , Await Keywords & Fixtures
+# Chapter 3: Async , Await Keywords & Anonymous Function
 •	Async , Await Keywords.
+•	Anonymous Function.
+# Chapter 4: Test Annoation & Fixtures
+•	Test Annotation.
 •	Fixtures.
 # Chapter 5: Locators & Assertions
 •   Locators. 
