@@ -22,8 +22,13 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 6: Interactions
 •	Playwright Inspector & Codegen Tool
 •	Logs & HTML Reports
-# Chapter 7: Debugging Tools
-•	GetByLabel, Role, & Text
+# Chapter 7: Debugging Tests & Tools 
+•	VS Code debugger
+•	Playwright Inspector
+•	Trace Viewer
+•	Browser Developer Tools
+•	Verbose API logs
+•	Headed mode
 # Chapter 8: Handling Calendars
 •	Calendar Strategies & Validation
 # Chapter 9: Expect Assertions
