@@ -8,6 +8,41 @@ import { test, expect, Page } from '@playwright/test';
 
 // });
 
+
+
+// test('pressSequentially', async ({ page }) => {
+
+//   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+//   await page.getByPlaceholder('Type to search...').pressSequentially('New York')
+
+// });
+
+// test('press', async ({ page }) => {
+
+//   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+//   await page.getByRole('button', { name: 'Submit' }).press('Enter');
+
+// });
+
+// test('cntrl + delete', async ({ page }) => {
+
+//   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+
+//   await page.getByLabel('Textarea').fill('Control');
+
+//   await page.getByLabel('Textarea').press('Control+A+Delete');
+
+// });
+
+
+
+
+
+
+
+
 // test('toBeChecked checkbox', async ({ page }) => {
 
 //   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
@@ -55,6 +90,16 @@ import { test, expect, Page } from '@playwright/test';
 //   await page.getByLabel('Date picker').press("Tab");
 
 // });
+
+
+
+
+
+
+
+
+
+
 
 
 // test('click left', async ({ page }) => {
@@ -118,31 +163,27 @@ import { test, expect, Page } from '@playwright/test';
 
 // });
 
-// test('pressSequentially', async ({ page }) => {
+test('scroll', async ({ page }) => {
 
-//   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+  await page.goto("https://bonigarcia.dev/selenium-webdriver-java/long-page.html");
 
-//   await page.getByPlaceholder('Type to search...').pressSequentially('New York')
+  // await page.locator('//*[text()="Boni García"]').scrollIntoViewIfNeeded();
 
-// });
+  // await page.waitForTimeout(5000)
 
-// test('press', async ({ page }) => {
+  // await page.locator('//*[text()="Boni García"]').hover();
 
-//   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+  // await page.mouse.wheel(0, 100);
 
-//   await page.getByRole('button', { name: 'Submit' }).press('Enter');
+  // Alternatively, programmatically scroll a specific element
+  await page.locator('//*[text()="Boni García"]').evaluate(e => e.scrollTop += 1000);
 
-// });
+  await page.waitForTimeout(5000)
 
-// test('cntrl + delete', async ({ page }) => {
+});
 
-//   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
 
-//   await page.getByLabel('Textarea').fill('Control');
 
-//   await page.getByLabel('Textarea').press('Control+A+Delete');
-
-// });
 
 // test(' setInputFiles ', async ({ page }) => {
 
@@ -183,6 +224,16 @@ import { test, expect, Page } from '@playwright/test';
 
 // });
 
+
+
+
+
+
+
+
+
+
+
 // test(' dragAndDrop ', async ({ page }) => {
 
 //   await page.goto("https://bonigarcia.dev/selenium-webdriver-java/drag-and-drop.html");
@@ -210,21 +261,3 @@ import { test, expect, Page } from '@playwright/test';
 
 // });
 
-test('scroll', async ({ page }) => {
-
-  await page.goto("https://bonigarcia.dev/selenium-webdriver-java/long-page.html");
-
-  // await page.locator('//*[text()="Boni García"]').scrollIntoViewIfNeeded();
-
-  // await page.waitForTimeout(5000)
-
-  // await page.locator('//*[text()="Boni García"]').hover();
-
-  // await page.mouse.wheel(0, 100);
-
-  // Alternatively, programmatically scroll a specific element
-  await page.locator('//*[text()="Boni García"]').evaluate(e => e.scrollTop += 1000);
-
-  await page.waitForTimeout(5000)
-
-});
