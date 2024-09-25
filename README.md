@@ -20,8 +20,13 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 •   Locators. 
 •   Assertions.
 # Chapter 6: Interactions
-•	Playwright Inspector & Codegen Tool
-•	Logs & HTML Reports
+•   Text Input.
+•   Checkboxes and Radio Buttons.
+•   Select Options.
+•   Mouse Click.
+•   Upload Files.
+•   Drag and Drop.
+•   Scrolling.
 # Chapter 7: Debugging Tests & Tools 
 •	VS Code debugger
 •	Playwright Inspector
