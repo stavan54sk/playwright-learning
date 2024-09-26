@@ -35,7 +35,8 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 •	Verbose API logs
 •	Headed mode
 # Chapter 8: Handling Calendars
-•	Calendar Strategies & Validation
+•	Page
+•	Popup
 # Chapter 9: Expect Assertions
 •	Hidden & Displayed Element Validation
 •	Automating Alerts & Frames
