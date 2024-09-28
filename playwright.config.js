@@ -18,7 +18,7 @@ module.exports = defineConfig({
       use: { ...devices['Desktop Chrome'] }
     }
   ],
-  testDir: './Chapter 05 Locators & Assertions',
+  testDir: './Chapter 08 Page Popup Dialogs & Frames',
 
   timeout: 30 * 1000,
 
