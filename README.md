@@ -40,8 +40,14 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 •	Dialogs
 •	Frames
 # Chapter 9: API Testing
-•	Hidden & Displayed Element Validation
-•	Automating Alerts & Frames
+•	Basics of API Testing
+•	Using APIRequestContext
+•	Setting Up Tests
+•	Making API Requests
+•	Validation
+•	Integrating with UI Tests
+•	Authentication
+•	Context Management
 # Chapter 10: Session Storage & Network Interception
 •	API Request Methods & Integration
 •	E2E Validation with API
@@ -55,3 +61,5 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 # Chapter 14: Reporting
 •	Creating & Implementing Page Objects
 # Chapter 15: Cucumber
+•	Creating & Implementing Page Objects
+# Chapter 16: Accessibility testing
