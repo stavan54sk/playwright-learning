@@ -39,27 +39,19 @@ This repository is dedicated to exploring and mastering Playwright, a modern end
 •	Popup
 •	Dialogs
 •	Frames
-# Chapter 9: Expect Assertions
+# Chapter 9: API Testing
 •	Hidden & Displayed Element Validation
 •	Automating Alerts & Frames
-# Chapter 10: API Integration
+# Chapter 10: Session Storage & Network Interception
 •	API Request Methods & Integration
 •	E2E Validation with API
-# Chapter 11: Session Handling
+# Chapter 11: Visual Testing
 •	Saving & Debugging Session Storage
-# Chapter 12: Network Interception
+# Chapter 12: Utilities
 •	Intercepting Network Calls
 •	Aborting & Testing Network Calls
-# Chapter 13: ExcelJS
+# Chapter 13: Serial ,Parallel Execution and Tagging
 •	ExcelJS Functions & Data Handling
-# Chapter 14: Page Object Pattern
+# Chapter 14: Reporting
 •	Creating & Implementing Page Objects
-# Chapter 15: External Data Handling
-•	JSON Data for Playwright Testing
-•	Project Configurations
-# Chapter 16: Fixing Flaky Tests
-•	Retry Options & Parallel Test Runs
-# Chapter 17: CI/CD Integration
-•	Playwright with Jenkins
-# Chapter 18: Cucumber Framework
-•	Creating Feature Files & Step Definitions
+# Chapter 15: Cucumber
