@@ -113,5 +113,10 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 ### 🛠 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/playwright-learning.git
-   cd playwright-learning
+    git clone https://github.com/yourusername/playwright-learning.git
+    cd playwright-learning
+
+2. Install dependencies:
+    npm install
+
+3. Start learning by navigating to different chapters.
