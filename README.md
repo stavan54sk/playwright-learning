@@ -96,7 +96,7 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 ### 🛠 How to Use
 1. Clone the repository:
    ```bash
-    git clone https://github.com/yourusername/playwright-learning.git
+    git clone https://github.com/stavan54sk/playwright-learning.git
     cd playwright-learning
 
 2. Install dependencies:
