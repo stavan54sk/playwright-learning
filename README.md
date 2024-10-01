@@ -7,33 +7,27 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 ## 📚 Index
 
 ### Chapter 1: Introduction to Playwright
-![Introduction Image]
 - 🚀 **Introduction to Playwright**
 - 🔄 **Benefits of Playwright Over Selenium and Cypress**
 - 🏗️ **Playwright Architecture**
 
 ### Chapter 2: Environment Setup
-![Environment Setup]
 - 🛠 **Installing Node.js & Visual Studio for Playwright**
 - 🗂 **Playwright Project Structure**
 
 ### Chapter 3: Async, Await Keywords & Anonymous Function
-![Async Await]
 - ⏳ **Async, Await Keywords**
 - 🕵️‍♂️ **Working with Anonymous Functions**
 
 ### Chapter 4: Test Annotations & Fixtures
-![Annotations and Fixtures]
 - 🏷 **Test Annotations**
 - ⚙️ **Using Fixtures**
 
 ### Chapter 5: Locators & Assertions
-![Locators and Assertions]
 - 📍 **Locators**
 - ✅ **Assertions**
 
 ### Chapter 6: Interactions
-![Interactions]
 - ✅ **Checkboxes and Radio Buttons**
 - 🔽 **Select Options**
 - 🖱 **Mouse Click**
@@ -42,7 +36,6 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 🖱 **Scrolling**
 
 ### Chapter 7: Debugging Tests & Tools 
-![Debugging]
 - 🐞 **VS Code Debugger**
 - 🔎 **Playwright Inspector**
 - 📊 **Trace Viewer**
@@ -51,14 +44,12 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 👁 **Headed Mode**
 
 ### Chapter 8: Page, Popup, Dialogs & Frames
-![Page Popup Dialogs]
 - 📄 **Pages**
 - 🔔 **Popups**
 - 🗣 **Dialogs**
 - 🖼 **Frames**
 
 ### Chapter 9: API Testing
-![API Testing]
 - 🌐 **Basics of API Testing**
 - 🛠 **Using `APIRequestContext`**
 - 🏗 **Setting Up Tests**
@@ -69,35 +60,28 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 📂 **Context Management**
 
 ### Chapter 10: Session Storage & Network Interception
-![Session Storage]
 - 💾 **Session Storage**
 - 🌐 **Network Interception**
 
 ### Chapter 11: Visual Testing
-![Visual Testing]
 - 📸 **Snapshots**
 - 👁 **Pixel-to-Pixel Comparison**
 
 ### Chapter 12: Utilities
-![Utilities]
 - 🧰 **Useful Utilities in Playwright**
 
 ### Chapter 13: Serial, Parallel Execution & Tagging
-![Execution]
 - 🔀 **Serial & Parallel Test Execution**
 - 🏷 **Tagging Tests**
 
 ### Chapter 14: Reporting
-![Reporting]
 - 📝 **Generate Test Reports**
 - 📊 **Test Coverage Reports**
 
 ### Chapter 15: Cucumber
-![Cucumber]
 - 🥒 **Behavior-Driven Development with Cucumber**
 
 ### Chapter 16: Accessibility Testing
-![Accessibility Testing]
 - ♿ **Accessibility Compliance Testing**
 
 ---
