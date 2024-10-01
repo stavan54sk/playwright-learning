@@ -1,4 +1,4 @@
-# ![Playwright Logo](https://user-images.githubusercontent.com/73263332/155241193-d44cbaaa-cc22-4a8d-9292-185ecf1c9928.png) Playwright Learning
+# Playwright Learning
 
 This repository is dedicated to exploring and mastering **Playwright**, a modern end-to-end testing framework for web applications. It includes practical examples, sample projects, and learning resources to boost your Playwright skills.
 
