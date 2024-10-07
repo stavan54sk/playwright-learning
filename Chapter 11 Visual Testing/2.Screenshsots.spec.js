@@ -20,11 +20,11 @@ import { test, expect } from '@playwright/test';
 
 // });
 
-test('buffer screenshot', async ({ page }) => {
-  await page.goto('https://playwright.dev/docs/test-snapshots');
-  await page.getByRole('link', { name: 'Previous « Screenshots' }).screenshot({path:'myelementscreenshot.ong'});
+// test('buffer screenshot', async ({ page }) => {
+//   await page.goto('https://playwright.dev/docs/test-snapshots');
+//   await page.getByRole('link', { name: 'Previous « Screenshots' }).screenshot({path:'myelementscreenshot.ong'});
 
-});
+// });
 
 
 
