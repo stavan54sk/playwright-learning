@@ -64,10 +64,12 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 🌐 **Network Interception**
 
 ### Chapter 11: Visual Testing
-- 📸 **Snapshots**
-- 👁 **Pixel-to-Pixel Comparison**
+- 🖼 **Visual Comparisons and Baseline Testing**
+- 📸 **Taking Screenshots**
+- 📉 **Screenshots on Test Failure**
+- 🎥 **Videos on Test Failure**
 
-### Chapter 12: Utilities
+### Chapter 12: Accessibility Testing
 - 🧰 **Useful Utilities in Playwright**
 
 ### Chapter 13: Serial, Parallel Execution & Tagging
