@@ -69,12 +69,13 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 📉 **Screenshots on Test Failure**
 - 🎥 **Videos on Test Failure**
 
-### Chapter 12: Accessibility Testing
-- 🧰 **Useful Utilities in Playwright**
+### Chapter 12: Parallelism,Parameterize, Retries in Tests
+- 🔀 **Parallelism**
+- 🏷 **Parameterize**
+- 🏷 **Retries**
 
-### Chapter 13: Serial, Parallel Execution & Tagging
-- 🔀 **Serial & Parallel Test Execution**
-- 🏷 **Tagging Tests**
+### Chapter 13: Accessibility Testing
+- 🧰 **Useful Utilities in Playwright**
 
 ### Chapter 14: Reporting
 - 📝 **Generate Test Reports**
