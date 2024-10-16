@@ -70,9 +70,9 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 🎥 **Recording Videos on Test Failures**
 
 ### Chapter 12: Parallelism, Parameterization & Retries in Tests
-- 🔀 **Implementing Parallelism**
-- 🏷 **Using Parameterization**
-- 🔄 **Setting Up Test Retries**
+- 🔀 **Parallelism**
+- 🏷 **Parameterization**
+- 🔄 **Test Retries**
 
 ### Chapter 13: Page Objects & Reporting
 - 📝 **Generating Test Reports**
