@@ -15,10 +15,12 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] }
+      use: { ...devices['Desktop Chrome'] },
+      // fullyParallel: true, // Enable parallel execution for all tests
+      // workers: process.env.CI ? 3 : undefined // Adjust workers in CI environment
     }
   ],
-  testDir: './Chapter 11 Visual Testing',
+  testDir: './Chapter 12 Parallelism Parameterize Retries in Tests',
 
   timeout: 30 * 1000,
 
@@ -33,6 +35,7 @@ module.exports = defineConfig({
     browserName:'chromium',
     // screenshot:'on',
     video:'on',
+
 
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
