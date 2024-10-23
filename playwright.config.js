@@ -1,5 +1,7 @@
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
+import dotenv from 'dotenv';
+import path from 'path';
 
 /**
  * Read environment variables from file.
@@ -7,8 +9,13 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 // require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
+dotenv.config({
+  path: `.env.${process.env.ENV}`
+});
+
 /**
  * @see https://playwright.dev/docs/test-configuration
+ * 
  */
 module.exports = defineConfig({
 
@@ -16,6 +23,7 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
+
       // fullyParallel: true, // Enable parallel execution for all tests
       // workers: process.env.CI ? 3 : undefined // Adjust workers in CI environment
     }
