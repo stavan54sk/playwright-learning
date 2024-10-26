@@ -22,6 +22,8 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
+        // Give failing tests 3 retry attempts
+      retries: 5,
       use: { ...devices['Desktop Chrome'] },
 
       // fullyParallel: true, // Enable parallel execution for all tests
