@@ -77,8 +77,8 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 ### Chapter 13: Page Objects
 - 📝 **Pages and Page Objects**
 
-### Chapter 14: Cucumber
-- 🥒 **Behavior-Driven Development with Cucumber**
+### Chapter 14: Reporting
+- 📊 **Reporting**
 
 ### Chapter 15: Accessibility Testing
 - ♿ **Conducting Accessibility Compliance Testing**
