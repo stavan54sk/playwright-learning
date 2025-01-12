@@ -74,9 +74,8 @@ This repository is dedicated to exploring and mastering **Playwright**, a modern
 - 🏷 **Parameterization**
 - 🔄 **Test Retries**
 
-### Chapter 13: Page Objects & Reporting
-- 📝 **Generating Test Reports**
-- 📊 **Creating Test Coverage Reports**
+### Chapter 13: Page Objects
+- 📝 **Pages and Page Objects**
 
 ### Chapter 14: Cucumber
 - 🥒 **Behavior-Driven Development with Cucumber**
