@@ -23,14 +23,13 @@ module.exports = defineConfig({
     {
       name: 'chromium',
         // Give failing tests 3 retry attempts
-      retries: 5,
       use: { ...devices['Desktop Chrome'] },
 
       // fullyParallel: true, // Enable parallel execution for all tests
       // workers: process.env.CI ? 3 : undefined // Adjust workers in CI environment
     }
   ],
-  testDir: './Chapter 12 Parallelism Parameterize Retries in Tests',
+  testDir: './Chapter 13 Page Objects & Reporting',
 
   timeout: 30 * 1000,
 
