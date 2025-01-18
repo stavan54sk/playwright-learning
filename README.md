@@ -1,6 +1,6 @@
 # Playwright UI Automation Testing 
 
-This repository is dedicated to exploring and mastering **Playwright**, a modern end-to-end testing framework for web applications. It includes practical examples, sample projects, and learning resources to help you boost your Playwright skills.
+Welcome to the Playwright UI Automation Testing repository! Here, you will find a comprehensive, step-by-step guide to mastering UI automation using the Playwright framework. The curriculum is designed to help you learn through practical examples and detailed explanations, empowering you to effectively automate UI tests with ease.
 
 ---
 
